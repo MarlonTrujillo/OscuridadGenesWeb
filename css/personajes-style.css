@@ -179,6 +179,10 @@ li.dropdown {
   padding: 5%;
 }
 
+.texto p {
+  margin-top: 2%;
+}
+
 #textogaleria{
   margin-top: 2%;
   color:white;
