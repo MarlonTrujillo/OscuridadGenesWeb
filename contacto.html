@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contacto</title>
+	<link rel="stylesheet" type="text/css" href="css/formato_contacto.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Ravi+Prakash" rel="stylesheet">
+</head>
+<body>
+	<div id="contenedor_2">
+
+		<header>
+			<img id="imagen_titulo" src="images/titulo_blanco.png" >
+		</header>
+
+		<input type="checkbox" id="btn-menu">
+		<label for="btn-menu">
+			<img src="images/menu.png" width="30px" height="30px">
+		</label>
+
+		<nav class="menu">
+			 <center>
+					<ul>
+						 <li id="primero"><a href="index.html">Home</a></li>
+						 <li><a href="historia.html">Historia</a></li>
+						 <li class="dropdown">
+								<a class="dropbtn" href="personajes.html">Personajes</a>
+								<div class="dropdown-content">
+									 <a href="galeria.html">Galería</a>
+								</div>
+								<li><a href="universo.html">Universo</a></li>
+								<li class="dropdown">
+									 <a class="dropbtn">Desarrolladores</a>
+									 <div class="dropdown-content">
+											<a href="Black_ice_games.html">¿Quiénes somos?</a>
+											<a href="contacto.html">Contacto</a>
+									 </div>
+								</li>
+					</ul>
+			 </center>
+		</nav>
+
+		<section id="titulo" >
+			<h1 class="texto_titulo">Contáctanos</h1>
+		</section>
+		<br>
+		<p>Si deseas darnos alguna sugerencia, no dudes en contactarnos llenando el siguiente formulario.</p>
+		<br>
+		<br>
+
+		<form>
+	<fieldset>
+			<table border="0" width="800px" align="center">
+				<tr>
+					<td><label>NOMBRE COMPLETO</label></td>
+					<td><input type="text" name="nombre_estudiante" maxlength="20" size="40" placeholder="Digite nombre y apellido"></td>
+				</tr>
+				<tr>
+					<td><label>EDAD</label></td>
+					<td><input type="number" name="edad" min="18" max="50" step="2"></td>
+				</tr>
+				<tr>
+					<td><label>DEPARTAMENTO</label></td>
+					<td>
+						<select>
+							<option>Antioquia</option>
+							<option>Bogotá (D. F.)</option>
+							<option>Bolívar</option>
+							<option>Boyacá</option>
+							<option>Cauca</option>
+							<option>Cundinamarca</option>
+							<option>Magdalena</option>
+							<option>Santander</option>
+							<option>Tolima</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label>GENERO</label></td>
+					<td>
+						<input type="radio" name="genero">Masculino
+						<br>
+						<input type="radio" name="genero">Femenino
+						<br>
+						<input type="radio" name="genero">Otro
+					</td>
+				</tr>
+				<tr>
+					<td><label>ESTUDIOS</label></td>
+					<td>
+						<input type="checkbox" name="estudios">Secundaria
+						<br>
+						<input type="checkbox" name="estudios">Pregrado
+						<br>
+						<input type="checkbox" name="estudios">Posgrado
+						<br>
+						<input type="checkbox" name="estudios">Maestria
+					</td>
+				</tr>
+				<tr>
+					<td><label>Mensaje</label></td>
+					<td>
+						<textarea name="mensaje" rows="10" cols="50"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+
+					</td>
+					<td>
+						<input type="reset" name=""><input type="submit" name="">
+					</td>
+				</tr>
+			</table>
+	</fieldset>
+</form>
+<br>
+<br>
+<p>
+	¿Deseas contactarnos para algún proyecto? No dudes en escribirnos a <a href="mailto:blackicegames@gmail.com">blackicegames@gmail.com</a>
+</p>
+
+		<footer>
+			<p id="texto_footer">Maria Alejandra Agudelo Toro - Isabel Hernández Escobar - Emmanuel Flórez Larrea - Marlon Trujillo Montaño</p>
+		</footer>
+	</div>
+
+</body>
+</html>

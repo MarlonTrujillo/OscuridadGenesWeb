@@ -1,0 +1,257 @@
+*{
+	margin: 0px auto;
+	padding: 0px;
+}
+body{
+	width: 100%;
+ 	height: auto;
+ 	background-color: #2B2B2B;
+
+}
+ #contenedor_2{
+
+ 	width: 90%;
+ 	height: auto;
+ 	float: left;
+ 	margin-top: 5%;
+ 	margin-left: 5%;
+
+ 	
+ }
+
+ header{
+ 	width: 100%;
+ 	height: 200px;
+ 
+ }
+
+ #imagen_titulo{
+ 
+ 	width: 90%;
+ 	height: 120px;
+ 	margin: 3% 0 0 6%;
+ }
+
+/*menu*/
+ a {
+	text-align: center;
+	font-size: 24px;
+	/*color: #01A9DB;*/
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+li a, .dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 10px 33px;
+	text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+	background-color: #474747;
+}
+
+li.dropdown {
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: grey;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 10px 33px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+#primero {
+	padding-left: 50px;
+}
+
+#btn-menu {
+	display: none;
+}
+
+#contenedor1 label {
+	display: none;
+	height: 30px;
+	padding: 30px;
+}
+
+#contenedor1 label:hover {
+	cursor: pointer;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.menu
+{
+	background-color: black;
+}
+
+.menu ul {
+	margin: 0px;
+	list-style: none;
+	padding: 0px;
+	display: flex;
+}
+
+.menu li:hover {
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.menu li a {
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+}
+/*menu*/
+
+#Ui_section{
+	width: 55%;
+	height: 350px;
+	/*background-color: gray;*/
+	margin: 100px auto 0;
+
+}
+
+#Ui_img{
+	width: 100%;
+	height: 100%;
+	
+
+}
+
+ #titulo{
+ 	width: 90%;
+ 	height: 50px;
+ 	background-color: black;
+ 	margin: 100px auto 0;
+}
+
+.texto_titulo{
+	font-family: 'Ravi Prakash', cursive;
+	color: white;
+	font-size: 35px;
+	text-align: center; 
+}
+ #descripcion_1{
+ 	width: 85%;
+ 	height: auto;
+ 	padding: 15px;
+ 	background-color: gray;
+	margin: 50px auto 0;
+	font-family: 'Ravi Prakash', cursive;
+	color: white;
+	text-align: justify;
+	font-size: 20px;
+ 	
+ }
+
+#titulo_2{
+ 	width: 90%;
+ 	height: 50px;
+ 	background-color: black;
+ 	margin: 100px auto 0;
+ 
+ 	
+
+}
+ #descripcion_2{
+ 	width: 85%;
+ 	height: auto;
+ 	padding: 15px;
+ 	background-color: gray;
+	margin: 50px auto 0;
+	font-family: 'Ravi Prakash', cursive;
+	color: white;
+	text-align: justify;
+	font-size: 20px;
+ 	
+ 	
+
+ }
+
+ footer{
+	width: 100%;
+ 	height: 100px;
+ 	margin: 100px 0 0 0;
+ 	background-color:black;
+
+
+}
+
+#texto_footer{
+	font-family: 'Ravi Prakash', cursive;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+
+}
+
+ @media (max-width: 767px) {
+
+ 	header{ width: 90%; height: auto;}
+
+ #imagen_titulo{
+ 
+ 	width: 100%;
+ 	height: 100%;
+ 	
+ }
+	#Ui_section{width: 90%; height:auto;}
+	#Ui_img{width: 100%; height:100%;}
+	.menu {
+		position: absolute;
+		background:gray;
+		width: 70%;
+		margin-left: -70%;
+		transition: all 0.5s;
+	}
+	.menu ul {
+		flex-direction: column;
+	}
+	#btn-menu:checked ~ .menu {
+		margin: 0px;
+	}
+	footer{width: 90%; height: 150px; margin-left: 5%; }
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+@media (min-width: 1200px) {
+	
+}
